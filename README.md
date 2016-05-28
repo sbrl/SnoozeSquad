@@ -35,9 +35,9 @@ If for some reason the `data-src` attribute is unsuitable, you change change it 
 ## Options
 You can pass Snooze Squad a number of options. Below is an explanation of each:
 
- * range - The number of screens within the current screen an image is allowed to get before it is woken up.
- * attributeName - The name of the attribute that we should copy over to wake image up.
- * updateInterval - The maximum interval at which we should update. Helps to prevent lag.
+ * `range` - The number of screens within the current screen an image is allowed to get before it is woken up.
+ * `attributeName` - The name of the attribute that we should copy over to wake image up.
+ * `updateInterval` - The maximum interval at which we should update. Helps to prevent lag.
 
 ## Development
 Snooze Squad development isn't too complicated either. You'll need [Node.js] and make installed if you want to build / minify Snooze Squad.
