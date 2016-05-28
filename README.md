@@ -4,10 +4,10 @@ Finally a simple lazy image loader. Written in ES6.
 ## Downloading
 Download SnoozeSquad from this repo. Links:
 
-Version		| Link								| curl command
-------------|-----------------------------------|-----------------------------
-Unminified	| (coming soon!)					| (coming soon!)
-Minified	| (coming soon!)					| (coming soon!)
+Makefile						| `curl` command
+--------------------------------|-----------------------------
+[SnoozeSquad.js](https://github.com/sbrl/SnoozeSquad/raw/master/SnoozeSquad.js)					| `curl -OL https://github.com/sbrl/SnoozeSquad/raw/master/SnoozeSquad.js`
+[SnoozeSquad.min.js](https://github.com/sbrl/SnoozeSquad/raw/master/SnoozeSquad.min.js)				|  `curl -OL https://github.com/sbrl/SnoozeSquad/raw/master/SnoozeSquad.min.js`
 
 ## Usage
 Using Snooze Squad is really easy. Here's a simple example:
