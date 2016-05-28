@@ -39,7 +39,16 @@ You can pass Snooze Squad a number of options. Below is an explanation of each:
  * attributeName - The name of the attribute that we should copy over to wake image up.
  * updateInterval - The maximum interval at which we should update. Helps to prevent lag.
 
+## Development
+Snooze Squad development isn't too complicated either. You'll need [Node.js] and make installed if you want to build / minify Snooze Squad.
 
+Note that if you submit pull requests, it would be helpful if you _didn't_ minify the file yourself if there's alreayd a pull request waiting. That just gets messy.
+
+### Setup
+If you're on linux, just run `make setup` in the current directory. If not (or you're on a machine without `sudo` - how odd!), just run `npm install uglify-js-harmony --global` instead.
+
+### Minification
+Just run `make` in the current directory.
 
 ## License
 Snooze Squad is licensed under the MIT license. See the [LICENSE](https://github.com/sbrl/SnoozeSquad/blob/master/LICENSE) file in this repository.
