@@ -18,10 +18,17 @@ class SnoozeSquad
 	
 	start()
 	{
+		// Passive event listener check from
+		// https://github.com/WICG/EventListenerOptions/blob/gh-pages/explainer.md
+		var supportsPassiveEvents = false;
+		try {
+		  var opts = Object.defineProperty({}, 'passive', { get: function() { supportsPassiveEvents = true; } });
+		  window.addEventListener("test", null, opts);
+		} catch (e) {}
 		window.addEventListener("scroll", (function(event) {
 			if((+new Date()) - this.lastUpdateTime > this.updateInterval)
 				this.update();
-		}).bind(this));
+		}).bind(this), supportsPassiveEvents ? { passive: true } : false);
 	}
 	
 	update()
