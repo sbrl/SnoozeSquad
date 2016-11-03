@@ -18,7 +18,7 @@ window.snoozeSquad = new SnoozeSquad({});
 
 The first parameter in the above is the _options object_. You can specify a number of options that are listed below if you want to. Note that the options object is currently _required_, and SnoozeSquad won't work without it.
 
-Once you've got that set up, change the name of the `src` attribute of all images that you want to be lazy loaded to `data-src`. The contents of `data-src` will be copied over to the `src` attirbute when the image is woken up. Example:
+Once you've got that set up, change the name of the `src` attribute of all images that you want to be lazy loaded to `data-src`. The contents of `data-src` will be copied over to the `src` attribute when the image is woken up. Example:
 
 ```html
 <!-- From this -->
