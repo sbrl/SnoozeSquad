@@ -14,6 +14,7 @@ class SnoozeSquad
 		this.querySelector = `[${this.attributeName}]`;
 		this.lastUpdateTime = 0;
 		this.start();
+		this.update();
 	}
 	
 	start()

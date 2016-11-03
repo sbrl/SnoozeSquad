@@ -1,4 +1,5 @@
 ### SnoozeSquad Makefile ###
+# The target output file
 TargetFile = SnoozeSquad.min.js
 
 # Set the default make goal
@@ -16,4 +17,5 @@ build:
 	cat HeaderComment.js >$(TargetFile)
 	uglifyjs SnoozeSquad.js --mangle --compress --screw-ie8 >>$(TargetFile)
 	@echo [SnoozeSquad/Build] Minified Snooze Squad to $(TargetFile)
+	@echo [SnoozeSquad/Build] $$(ls -lh SnoozeSquad.js | cut -d ' ' -f 5) --\> $$(ls -lh SnoozeSquad.min.js | cut -d ' ' -f 5)
 	@echo '*** Build Complete ***'
