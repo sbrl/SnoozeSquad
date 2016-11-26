@@ -1,6 +1,8 @@
 # SnoozeSquad
 Finally a simple lazy image loader (for browsers, not Node.JS!). Written in ES6.
 
+![npm version badge](https://badge.fury.io/js/snooze-squad.svg) [![npm](https://img.shields.io/npm/l/snooze-squad.svg)](https://github.com/sbrl/SnoozeSquad/blob/master/LICENSE)
+
 ## Downloading
 Download SnoozeSquad from this repo. Links:
 
