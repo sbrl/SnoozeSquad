@@ -1,0 +1,30 @@
+{
+  "name": "snooze-squad",
+  "version": "0.3.0",
+  "description": "A ridiculously simple lazy image loader, written in ES6. Time for a nap I think...",
+  "main": "SnoozeSquad.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sbrl/SnoozeSquad.git"
+  },
+  "keywords": [
+    "lazy",
+    "loader",
+    "images",
+    "browser",
+    "bandwidth",
+    "saving",
+    "dataset",
+    "veiwport",
+    "automatic"
+  ],
+  "author": "Starbeamrainbowlabs",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sbrl/SnoozeSquad/issues"
+  },
+  "homepage": "https://github.com/sbrl/SnoozeSquad#readme"
+}
