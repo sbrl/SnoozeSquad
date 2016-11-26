@@ -32,6 +32,10 @@ Note that no other attributes will be touched, so you can safely do whatever els
 
 If for some reason the `data-src` attribute is unsuitable, you change change it with the `attributeName` parameter (see below).
 
+Snooze Squad should also properly detect which images are currently in the viewport, and load them automatically.
+
+You can also set the `src` attribute of your lazily-loaded images to a placeholder or other loading image / animation - Snooze Squad will overwrite this with the actual address of the image when the image is lazily loaded.
+
 ## Options
 You can pass Snooze Squad a number of options. Below is an explanation of each:
 
