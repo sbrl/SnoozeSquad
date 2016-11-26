@@ -1,6 +1,6 @@
 {
   "name": "snooze-squad",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "A ridiculously simple lazy image loader, written in ES6. Time for a nap I think...",
   "main": "SnoozeSquad.js",
   "scripts": {
