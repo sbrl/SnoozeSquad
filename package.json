@@ -1,10 +1,10 @@
 {
   "name": "snooze-squad",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "A ridiculously simple lazy image loader, written in ES6. Time for a nap I think...",
   "main": "SnoozeSquad.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no tests have been written yet!\" && exit 1"
   },
   "repository": {
     "type": "git",
